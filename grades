@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int marks,total;
+	cout<<"Enter the marks:";
+	cin>>marks;
+	total=(marks/5);
+	switch(total)
+	{
+		case 20: case 19: case 18:
+			case 17:
+			cout<<"Grade A";
+				break;
+				case 16:
+					case 15:
+		case 14:cout<<"grade B";
+			break;
+				case 13:
+					case 12:
+		case 11:
+			cout<<"Grade C";
+				break;
+				case 10:
+					case 9:
+		case 8:
+		cout<<"Grade D";
+				break;
+			default:cout<<"Fail";
+					break;						
+	}
+	return 0;
+}
